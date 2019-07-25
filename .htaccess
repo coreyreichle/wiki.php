@@ -1,0 +1,5 @@
+    RewriteEngine On
+    RewriteRule ^$           main  [QSA]
+    RewriteRule ^index\.php$ wiki.php?page=main  [QSA]
+    RewriteCond %{REQUEST_URI} !(/includes/|/media)
+    RewriteRule ^([A-Za-z0-9\/]+)/?$ wiki.php?page=$1 [QSA]

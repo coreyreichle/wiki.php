@@ -1,0 +1,90 @@
+/*
+amcclure.css - https://github.com/AntonMcClure/site/blob/master/includes/amcclure.css
+Based on Ubergeek's thunix.css
+This file is licensed under the AGPL 3.0 or later.
+*/
+
+body {
+	margin: 0px 50px 0px 50px;
+	font-family: "Courier New", Courier, monospace;
+	background: black;
+	color: lime;
+}
+
+#body {
+	width: 100%;
+}
+
+#body h1 {
+	background: lightgray;
+	color: green;
+	padding-left: 8px;
+}
+
+#body h2 {
+	background: lightgray;
+	color: green;
+	padding-left: 6px;
+}
+
+#body h3 {
+	background: lightgray;
+	color: green;
+	padding-left: 4px;
+}
+
+#body a {
+	background: black;
+	color: lime;
+}
+
+a {
+	color: lime;
+}
+
+a:visited {
+	color: green;
+}
+
+#body a:visited {
+	color: green;
+}
+
+#header {
+	width: 100%;
+	text-align: center;
+	font-size: xx-large;
+}
+#content {
+	width: 79%;
+	float: right;
+	font-size: medium;
+}
+
+#content img {
+  max-height: 400px;
+  max-width: 98%;
+}
+
+#sidebar {
+	width: 19%;
+	float: left;
+	font-size: small;
+}
+
+#sidebar h1 {
+	color: lime;
+	background: black;
+}
+
+#sidebar h2 {
+	color: lime;
+	background: black;
+}
+
+#footer {
+	width: 100%;
+	text-align: center;
+	clear: both;
+	font-size: smaller;
+}
