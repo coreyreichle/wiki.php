@@ -23,7 +23,7 @@ if ( $page == "") {
 }
 
 if (!file_exists("$doc_root/articles/$page.md")) {
-        $page = "main";
+        $page = $not_found_page;
 }
 
 if ( $style == "") {
