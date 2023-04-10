@@ -7,6 +7,7 @@ $site_root="https://example.com";
 
 //Local base root for app files
 $doc_root="./";
+$not_found_page="main";
 
 //Site style
 // site is the default.  Specify something else here to switch
